@@ -1,0 +1,45 @@
+
+
+#mainmenu {
+  list-style: none;
+  display: flex;
+  justify-content:space-evenly;
+    height: 100%;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+
+#mainmenu li {
+  position: relative;
+  width: 125px;
+}
+
+#mainmenu>li .submenu {
+  position: absolute;
+  margin-top: 10px;
+  display: none;
+
+}
+a {
+  display: block;
+  text-decoration: none;
+  height: 25px;
+  color: rgb(94, 94, 94);
+  font-family: "roboto";
+  font-weight: 340;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.ssubmenu {
+  position: absolute;
+  left: 125px;
+}
+#mainmenu>li :hover {
+  color: black;
+  font-weight:400;
+}

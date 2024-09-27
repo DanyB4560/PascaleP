@@ -1,0 +1,20 @@
+footer{
+  position:relative;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  color: gray;
+}
+
+.vimeo{
+  position: absolute;
+  top: -15px;
+  right: 100px;
+}
+
+.linkedin{
+  position: absolute;
+  top: -12px;
+  right: 10px;
+}
+

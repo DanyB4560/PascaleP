@@ -1,0 +1,31 @@
+.main {
+  text-align: justify;
+  width: 100%;
+  
+  margin-bottom: 20px;
+}
+.titredateduree {
+  display: flex;
+  width: 1000px;
+  padding: 5px;
+  padding-left: 10px;
+  font-size: 14pt;
+  background-color: lightgray;
+}
+
+.description {
+  padding: 10px;
+  margin-bottom: 60px;
+
+}
+
+.date,
+.titre,
+.duree {
+  margin-right: 20px;
+}
+
+.complet {
+  width: 1000px;
+  margin: auto;
+}

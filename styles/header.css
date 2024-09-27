@@ -1,0 +1,49 @@
+
+
+/*========== HEADER ==========*/
+
+header ul{
+  list-style: none;
+}
+
+#titre{
+  grid-area: tt;
+  color: rgb(219, 117, 0);
+  font-size: 45px;
+  font-weight: 300;
+  letter-spacing: 10px;
+  font-family: "roboto";
+  text-align: center;
+}
+
+#fren-menu{
+  position: absolute;
+  right: 0px;
+  }
+  #fren-menu li{
+    position: relative;
+  }
+
+  #fren-menu li a{
+    display: block;
+    font-size: 14px;
+    width: 90px;
+    color: rgb(94, 94, 94);
+    text-align: center;
+  }
+
+  #fren-menu #fren-submenu{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+  }
+
+  #fren-menu a:hover{
+    color: black;
+    font-weight:400;
+  }
+
+  #fren-menu >li:hover #fren-submenu{
+    display: block;
+     }

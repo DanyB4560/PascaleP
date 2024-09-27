@@ -1,0 +1,90 @@
+.films{
+  width: 100%;
+  height: 550px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 550px;
+  column-gap: 10px;
+  grid-template-areas: 
+  "f1 f2";
+  margin-bottom: 20px;
+  
+}
+.film1{
+  grid-area: f1;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 50px 350px 150px;
+  grid-template-areas: 
+  "tt"
+  "ph"
+  "dt";
+  border: 1px solid black;
+  }
+.film2{
+  grid-area: f2;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 50px 350px 150px;
+  grid-template-areas: 
+  "tt"
+  "ph"
+  "dt";
+  border: 1px solid black;
+}
+
+.film1 .film-titre{
+  grid-area: tt;
+ }
+
+.film1 .film-photo{
+  grid-area: ph;
+ }
+
+.film1 .film-details{
+  grid-area: dt;
+ }
+
+ .film2 .film-titre{
+  grid-area: tt;
+ }
+
+.film2 .film-photo{
+  grid-area: ph;
+ }
+.film2 .film-details{
+  grid-area: dt;
+ }
+.film-titre{
+  text-align: center;
+  line-height: 50px;
+  background-color: lightgray;
+  width: 493px;
+}
+.film-details{
+  width: 100%;
+  padding: 5px 10px;
+  border-top: 1px solid black;
+}
+.film-photo{
+  width: 100%;
+  height: 100%;
+}
+.description {
+  text-align: justify;
+}
+.date {
+  display: inline-block;
+}
+.duree {
+  display: inline-block;
+}
+.dateduree {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.synopsis {
+  margin-bottom: 10px;
+  text-align: left;
+}
